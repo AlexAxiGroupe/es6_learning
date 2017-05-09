@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "babel app/es2015/es2015.js -o app/js/script.js -w"
+  },
+  "babel": {
+    "presets": ["es2015","react"],
+    "plugins": [],
+    "minified": false,
+    "ignore": ""
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
