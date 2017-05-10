@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "babel app/es2015/es2015.js -o app/js/script.js -w"
+    "start": "babel app/es2015 -d app/js  -w"
   },
   "babel": {
     "presets": ["es2015","react"],
